@@ -52,7 +52,7 @@ Uncomment the second line, and comment the first:
 #include <User_Setups/Setup25_TTGO_T_Display.h>    // Setup file for ESP32 and TTGO T-Display ST7789V SPI bus TFT
 ```
 
-Now, you should be ready to run code on your ESP32!*
+Now, you should be ready to run code on your ESP32!
 
 
 ## Running the code
@@ -61,7 +61,8 @@ Connect your ESP32 via a USB-C cable to one of the ports on your computer. Open
 `mosaic.ino` (inside `mosaic/`) with the Arduino IDE, and click the arrow
 button in the top left corner of the IDE to upload the code to the ESP32.
 
-*I had some difficulty getting code to run on my Mac, if your compilation is
-failing with an error message that ends with `A fatal error occurred: Failed
-to write to target RAM`, try following the steps in
-[this issue comment.](https://github.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/issues/139#issuecomment-904390716)
+> **Note**
+> I had some difficulty getting code to export from my Mac. If your compilation is
+> failing with an error message that ends with `A fatal error occurred: Failed
+> to write to target RAM`, try following the steps in
+> [this issue comment.](https://github.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/issues/139#issuecomment-904390716)
