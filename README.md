@@ -1,15 +1,14 @@
-# mosaic
+# *mosaic*, generative art for ESP32
 
-A program that displays sentences generated from fragments of text on an ESP32.
+<img src="installation.jpg" width=200 alt="Our installation">
 
 <img src="example.gif" width=200>
 
-You'll need an ESP32 TTGO T-Display to run this program.
-
+A program that displays sentences generated from fragments of text on an ESP32.
 
 ## Getting started with the Arduino IDE
 
-This program is written in Arduinoso we'll work with the
+This program is written in Arduino so we'll work with the
 [Arduino](https://www.arduino.cc) IDE. Download the Arduino IDE
 [here](https://www.arduino.cc/en/software), then follow these steps to run code
 on an ESP32:
@@ -59,8 +58,8 @@ Now, you should be ready to run code on your ESP32!*
 ## Running the code
 
 Connect your ESP32 via a USB-C cable to one of the ports on your computer. Open
-`mosaic.ino` with the Arduino IDE, and click the arrow button in top left
-corner of the IDE to upload the code to the ESP32.
+`mosaic.ino` (inside `mosaic/`) with the Arduino IDE, and click the arrow
+button in the top left corner of the IDE to upload the code to the ESP32.
 
 *I had some difficulty getting code to run on my Mac, if your compilation is
 failing with an error message that ends with `A fatal error occurred: Failed
